@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e716451b17e17973082a4a46553076f7",
+    "revision": "cceb514c0824dda2d649c8fdfcf234a3",
     "url": "/SocialSight/index.html"
   },
   {
-    "revision": "7486a52d3566d8958182",
+    "revision": "5ec561d1b996612d5d76",
     "url": "/SocialSight/static/css/main.71393dfb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SocialSight/static/js/2.36a0031d.chunk.js"
   },
   {
-    "revision": "7486a52d3566d8958182",
-    "url": "/SocialSight/static/js/main.49cfddef.chunk.js"
+    "revision": "5ec561d1b996612d5d76",
+    "url": "/SocialSight/static/js/main.e51462bc.chunk.js"
   },
   {
     "revision": "ea5dceead8f4cd4273da",

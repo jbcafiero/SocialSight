@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SocialSight/precache-manifest.a4ec804393e0eb752386e9d91ecd5dc8.js"
+  "/SocialSight/precache-manifest.ff66df93173dea52005249a024a1038e.js"
 );
 
 self.addEventListener('message', (event) => {
