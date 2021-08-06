@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/SocialSight/static/css/main.71393dfb.chunk.css",
+    "main.js": "/SocialSight/static/js/main.49cfddef.chunk.js",
+    "main.js.map": "/SocialSight/static/js/main.49cfddef.chunk.js.map",
+    "runtime~main.js": "/SocialSight/static/js/runtime~main.8a649c80.js",
+    "runtime~main.js.map": "/SocialSight/static/js/runtime~main.8a649c80.js.map",
+    "static/js/2.36a0031d.chunk.js": "/SocialSight/static/js/2.36a0031d.chunk.js",
+    "static/js/2.36a0031d.chunk.js.map": "/SocialSight/static/js/2.36a0031d.chunk.js.map",
+    "index.html": "/SocialSight/index.html",
+    "precache-manifest.a4ec804393e0eb752386e9d91ecd5dc8.js": "/SocialSight/precache-manifest.a4ec804393e0eb752386e9d91ecd5dc8.js",
+    "service-worker.js": "/SocialSight/service-worker.js",
+    "static/css/main.71393dfb.chunk.css.map": "/SocialSight/static/css/main.71393dfb.chunk.css.map",
+    "static/media/line-backdrop-blue.png": "/SocialSight/static/media/line-backdrop-blue.5223c0a9.png",
+    "static/media/line-backdrop-grid.png": "/SocialSight/static/media/line-backdrop-grid.c446ce58.png",
+    "static/media/ss-logo+name.png": "/SocialSight/static/media/ss-logo+name.75e38760.png",
+    "static/media/ss-logo-final.png": "/SocialSight/static/media/ss-logo-final.940798fc.png"
+  }
+}
