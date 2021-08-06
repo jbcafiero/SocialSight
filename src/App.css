@@ -1,0 +1,263 @@
+body {
+  background: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.extend {
+  grid-column: 1;
+  grid-row: 1 / span 2
+}
+
+.expandingBar {
+  transition: width 0.1s;
+}
+
+.commentArea {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.commentBox {
+  background: #c6acff;
+  font-size: 17px;
+  transition: height 0.1s
+}
+
+.commentBox:focus {
+  outline: none;
+}
+
+.commentB {
+  width:  90px;
+  font-size: 16px;
+  height: 35px;
+  background: none;
+  border: 2px solid #c6acff;
+  color: #c6acff;
+  transform: scale(1);
+  transition: transform 0.1s, float 0.1s;
+}
+
+.commentB:active {
+  transform: scale(1.03);
+  outline: none;
+}
+
+.commentB:focus {
+  outline: none;
+}
+
+.parentContainer {
+  width: 65%;
+  margin: 0 17.5% 0 17.5%;
+}
+
+.searchBar {
+  border-radius: 3px;
+  background: #c6acff;
+  border: none;
+  outline: none;
+  transition: transform 0.1s, 
+}
+
+.searchBar:focus {
+  transform: scale(1.01);
+  outline: none
+}
+
+.plussButton {
+  opacity: 1;
+  transition: opacity 0.1s, transform 0.1s;
+}
+
+.plussButton:hover {
+  opacity: 0.5;
+  transform: scale(1.07)
+}
+
+.postBackground {
+  background: black;
+  width: 100vh;
+  height: auto;
+}
+
+.navBar {
+  width: 70vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100px auto auto;
+}
+
+.postTemplate {
+  display: grid;
+  grid-template-columns: 125px auto 20px;
+  grid-template-rows: auto auto;
+}
+
+.navButtons {
+  text-decoration: none;
+  background: none;
+  line-height: 0px;
+  border: 2.5px solid #c6acff;
+  color: #c6acff;
+  opacity: 1;
+  font-size: 35px;
+  transition: opacity 0.1s;
+}
+
+.navButtons:hover {
+  opacity: 0.5;
+}
+
+.inputss {
+  border: none;
+  color: black;
+  font-size: 15px;
+  background: #c6acff;
+  border-radius: 2.5px;
+  padding: 0 15px;
+  transition: transform 0.1s, outline 0.1s;
+}
+
+.mainBG {
+background: rgb(198,172,255);
+background: linear-gradient(0deg, rgba(198,172,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.postsContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputss:focus {
+  outline: 1px solid white;
+  transform: scale(1.01);
+}
+
+.postObj {
+  height: auto;
+  width: 70vw;
+  margin: 2vh 0 2vh 0;
+  background:rgb(198,172,255);
+  opacity: 0;
+  border-radius: 3px;
+  transition: opacity 0.7s;
+}
+
+.another {
+  background: blue;
+}
+
+.postButton {
+  color: #c6acff;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: none;
+  font-size: 17px;
+  background: none;
+  border: 2px solid #c6acff;
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+
+.postButton:hover {
+  color: black;
+  background: #c6acff;
+}
+
+.postButton:focus {
+  outline: none;
+}
+
+.applyTrans {
+  transition: opacity 0.6s
+}
+
+.postButton:active {
+  transform: scale(0.97);
+}
+
+.basicFloatLeft {
+  margin-top: 35px;
+  width: 95%;
+  padding: 2.5%;
+  border: none;
+  background: rgb(236, 236, 236);
+  border-radius: 2.5px;
+}
+
+.basicFloatLeft:focus {
+  outline: 1px solid rgb(43, 43, 43);
+}
+
+.addButton {
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 2.5px;
+  cursor: pointer;
+  background: rgb(61, 204, 63);
+  transition: background 0.15s,
+              transform 0.075s;
+}
+
+.addButton:hover {
+  background: rgb(57, 167, 59);
+}
+.addButton:active {
+    transform: scale(0.975);
+}
+.addButton:focus {
+  outline: none;
+}
+
+.cancelButton {
+  float: right;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 2.5px;
+  cursor: pointer;
+  background: rgb(215, 68, 68);
+  transition: background 0.15s,
+              transform 0.075s;
+}
+
+.cancelButton:hover {
+  background: rgb(176, 49, 49);
+}
+.cancelButton:active {
+    transform: scale(0.975);
+}
+.cancelButton:focus {
+  outline: none;
+}
+
+.linkStart {
+  border: 3px solid #c6acff;
+  padding: 15px;
+  color:  #c6acff;
+  font-size: 20px;
+  text-decoration: none;
+  background: none;
+  transition: color 0.3s, background 0.3s, transform 0.3s
+}
+
+.linkStart:hover {
+  color: white;
+  background: #c6acff;
+  transform: scale(1.03);
+}
+
+.linkStart:active {
+  transform: scale(0.975);
+}
+
+.outline {
+ -webkit-text-stroke: 0.25px;
+ -webkit-text-stroke-color: rgb(158, 10, 172);
+}
